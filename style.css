@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0px;
+  border: 5px solid white;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#about {
+  background-color: white;
+  padding: 50px 0;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.2rem;
+  line-height: 1
+}
+
+#skills {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#skills ul {
+  list-style: none;
+  font-size: 1.2rem;
+  line-height: 2;
+  text-align: center;
+}
+
+#skills li:before {
+  content: "\2022";
+  color: #007bff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.instagram {
+  background-color: #c32aa3;
+}
+
+.fa {
+  font-size: 2rem;
+  color: white;
+}
+
